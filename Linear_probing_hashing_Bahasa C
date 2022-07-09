@@ -27,7 +27,7 @@ void insert(){
 void display(){
 	int i;
 	
-	printf("/nNilai Elemen Dalam Tabel Hash adalah :\n");
+	printf("\nNilai Elemen Dalam Tabel Hash adalah :\n");
 	
 	for(i=0;i<table_size; i++)
 	printf("\nindex[%d] = %d", i, h[i]);
